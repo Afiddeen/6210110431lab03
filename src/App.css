@@ -1,4 +1,4 @@
-.card {
+    .card {
     display: inline-block;
     text-align: center;
     width: 3em;
@@ -7,3 +7,8 @@
     margin: 1em;
     user-select: none;
    }
+   .activeCard {
+    color: red;
+    background: pink;
+   }
+   
