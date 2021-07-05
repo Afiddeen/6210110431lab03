@@ -1,12 +1,10 @@
 import React from 'react';
 import './App.css';
-import CharacterCard from './Charactercard';
-
+const word = "Hello";
 function App() {
   return (
     <div >
-      <CharacterCard Value="h"/>
-      <CharacterCard Value="i"/>
+      <WordCard value={word}/>
     </div>
   );
 }
