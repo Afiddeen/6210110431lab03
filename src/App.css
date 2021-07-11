@@ -1,14 +1,30 @@
     .card {
-    display: inline-block;
-    text-align: center;
-    width: 3em;
-    font-size: 2em;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin: 1em;
-    user-select: none;
+        display: inline-block;
+        text-align: center;
+        width: 3em;
+        font-size: 2em;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        margin: 1em;
+        user-select: none;
    }
    .activeCard {
-    color: red;
-    background: pink;
+        color: gray;
+        background: #00FF99;
+   }
+   .head {
+       background-color: #F5F5F5;
+       color: #000;
+       text-align: center;
+       font: optional;
+   }
+   .main {
+       font-size: 4mm;
+
+   }
+   .nemgame {
+       display: inline-block;
+       color: #000;
+       background-color: gray;
+       text-align: center; 
    }
    
