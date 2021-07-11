@@ -4,7 +4,8 @@ import WordCard from './WordCard';
 
 
 function App() {
-  const word =["SHOES","SHIRT","SCARF","SUIT","SOCKS","HAT"] ;
+  const word =["SHOES","SCARF","SOCKS","HAT"] ;
+  
   const newGame = () => {
     window.location.reload()
   }
@@ -14,18 +15,37 @@ function App() {
       <header>
         <h1>Word Card</h1>
       </header>
+
       <div className = "main">
-        <h1>
-          สิ่งของที่สวมใส่เพื่อบดบังแดด
-        </h1>
+        <h2>
+          เป็นสิ่งที่ใส่สวมใส่บนศีรษะเพื่อจุดประสงค์ต่าง ๆ
+        </h2>
         <div>
           <WordCard value = {"HAT"}/>
         </div>
         <h2>
-          ป้องกันอันตรายอันเกิดจากการสัมผัสกับพื้นผิวต่างๆ หรือการเจ็บเท้าจากการเดินหรือ การวิ่ง
+          ป้องกันอันตรายอันเกิดจากการสัมผัสกับพื้นผิวต่างๆ บริเวณเท้า
         </h2>
         <div>
           <WordCard value = {"SHOES"}/>
+        </div>
+        <h2>
+          เครื่องประดับที่ป้องกันความหนาวบริเวณคอ
+        </h2>
+        <div>
+          <WordCard value = {"SCARF"}/>
+        </div>
+        <h2>
+          อุปกรณ์เสื้อผ้าสำหรับสวมใส่ที่เท้า
+        </h2>
+        <div>
+          <WordCard value = {"SOCKS"}/>
+        </div>
+        <h2>
+          เป็นสิ่งที่มนุษย์สวมใส่เพื่อปกป้องร่างกาย
+        </h2>
+        <div>
+          <WordCard value = {"CLOTHES"}/>
         </div>
       </div>
         
@@ -35,8 +55,6 @@ function App() {
       
     </div>
 
-    
-    
   );
    
 }
