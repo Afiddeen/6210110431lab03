@@ -16,8 +16,10 @@
        color: #000;
        text-align: center;
        font: optional;
+       font-size: 8mm
    }
    .main {
+       text-align: left;
        font-size: 4mm;
 
    }
@@ -25,6 +27,7 @@
        display: inline-block;
        color: #000;
        background-color: gray;
-       text-align: center; 
+       text-align: center;
+        
    }
    
