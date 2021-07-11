@@ -5,7 +5,7 @@ import WordCard from './WordCard';
 
 function App() {
   const word =["SHOES","SCARF","SOCKS","HAT"] ;
-  
+
   const newGame = () => {
     window.location.reload()
   }
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className = "head">
       <header>
-        <h1>Word Card</h1>
+        <h1>WORD CARD</h1>
       </header>
 
       <div className = "main">
