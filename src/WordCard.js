@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import * as _ from 'lodash'
 import CharacterCard from './CharacterCard';
+import { attempt } from 'lodash';
 
 
 const prepareStateFromWorld = given_word =>{
@@ -39,7 +40,7 @@ const [state, setState] = useState(prepareStateFromWorld(props.value))
         <div>
             {
                 state.chars.map((c, i) => 
-                    <CharacterCard value={c} key={i} activationHandler={activationHandler}/>
+                    <CharacterCard value={c} key={i} activationHandler={activationHandler} attempt={state.attempt}/>
                     )
             }
         </div>
